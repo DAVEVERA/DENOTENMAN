@@ -34,7 +34,7 @@ export default function CartSidebar() {
                             <div className="cart-item" key={index}>
                                 <div className="cart-item-img">
                                     <Image
-                                        src={item.image}
+                                        src={item.image || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'}
                                         alt={item.name}
                                         width={80}
                                         height={80}

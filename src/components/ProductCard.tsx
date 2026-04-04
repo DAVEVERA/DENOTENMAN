@@ -20,7 +20,7 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
         >
             <div className="product-card-img">
                 <Image
-                    src={product.image}
+                    src={product.image || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'}
                     alt={product.name}
                     width={300}
                     height={300}

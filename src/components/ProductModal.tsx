@@ -98,7 +98,7 @@ export default function ProductModal({ product, allProducts, closeModal }: Produ
                 <div className="modal-body">
                     <div className="modal-img">
                         <Image
-                            src={displayProduct.image}
+                            src={displayProduct.image || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'}
                             alt={displayProduct.name}
                             id="modal-product-img"
                             width={500}
@@ -197,7 +197,7 @@ export default function ProductModal({ product, allProducts, closeModal }: Produ
                                     {crossSellProducts.map(p => (
                                         <div key={p.id} className="cross-sell-item">
                                             <Image
-                                                src={p.image}
+                                                src={p.image || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'}
                                                 alt={p.name}
                                                 className="cross-sell-img"
                                                 width={100}

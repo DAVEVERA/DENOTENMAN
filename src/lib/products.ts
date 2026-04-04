@@ -42,6 +42,7 @@ export async function getProducts(): Promise<Product[]> {
             ...p,
             category: finalCategory,
             categoryLabel: finalCategoryLabel,
+            image: p.image ? p.image.replace(/^(?:public\/)?assets\//, '/assets/') : p.image,
             desc: p.description, // remap database description to JSON desc
             basePrice: p.base_price, // map snake_case to camelCase
             // Ensure arrays are present even if empty
@@ -52,6 +53,7 @@ export async function getProducts(): Promise<Product[]> {
             })) as WeightOption[],
             variants: (p.variants || []).map((v: any) => ({
                 ...v,
+                image: v.image ? v.image.replace(/^(?:public\/)?assets\//, '/assets/') : v.image,
                 // map variant fields if needed, e.g. stock_status -> stock.status structure
                 // For now, let's keep it flat or reconstruct stock object if frontend relies on it heavily.
                 // Frontend uses stock.label, stock.status.
