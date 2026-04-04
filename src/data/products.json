@@ -1,0 +1,1570 @@
+[
+    {
+        "id": 1000,
+        "name": "Amandelen",
+        "slug": "amandelen",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "public/assets/img/noten/cashewnoten-naturel-ongebrand.jpeg",
+        "desc": "Heerlijke ongebrande amandelen, rijk aan vitamine E en gezonde vetten. Perfect als snack of in uw favoriete recepten.",
+        "basePrice": 5.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 10.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 19.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "ongebrand",
+                "name": "Ongebrand",
+                "price": 5.95,
+                "image": "assets/img/noten/amandelen-ongebrand-naturel.jpeg",
+                "sku": "NUT-001",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "naturel-heel",
+                "name": "Naturel Heel",
+                "price": 6.25,
+                "image": "assets/img/noten/amandelen-naturel-heel.jpeg",
+                "sku": "NUT-002",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 1001,
+        "name": "Cashewnoten",
+        "slug": "cashewnoten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/cashewnoten-naturel-ongebrand.jpeg",
+        "desc": "Romige ongebrande cashewnoten, mild van smaak en boordevol mineralen. Een favoriet voor jong en oud.",
+        "basePrice": 7.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 7.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 13.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 25.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "naturel",
+                "name": "Naturel",
+                "price": 7.5,
+                "image": "assets/img/noten/cashewnoten-naturel-ongebrand.jpeg",
+                "sku": "NUT-003",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": "Populair"
+            },
+            {
+                "id": "geroosterd-gezouten",
+                "name": "Geroosterd & Gezouten",
+                "price": 7.95,
+                "image": "assets/img/noten/cashewnoten-geroosterd-gezouten.jpeg",
+                "sku": "NUT-004",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "name": "Walnoten",
+        "slug": "walnoten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/walnoten-in-dop.jpeg",
+        "desc": "Verse walnoten in de dop, extra lang houdbaar en vol van smaak. Kraken voor optimale versheid.",
+        "basePrice": 4.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 8.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 16.5
+            }
+        ],
+        "variants": [
+            {
+                "id": "in-dop",
+                "name": "In Dop",
+                "price": 4.95,
+                "image": "assets/img/noten/walnoten-in-dop.jpeg",
+                "sku": "NUT-005",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "walnootpitten-gepeld",
+                "name": "Walnootpitten Gepeld",
+                "price": 6.95,
+                "image": "assets/img/noten/walnootpitten-gepeld.jpeg",
+                "sku": "NUT-006",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 1003,
+        "name": "Hazelnoten",
+        "slug": "hazelnoten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/hazelnoten-ongebrand.jpeg",
+        "desc": "Rauwe hazelnoten met vlies, intens van smaak. Perfect voor praline, chocolade of als gezonde snack.",
+        "basePrice": 5.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 9.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 18.5
+            }
+        ],
+        "variants": [
+            {
+                "id": "ongebrand",
+                "name": "Ongebrand",
+                "price": 5.5,
+                "image": "assets/img/noten/hazelnoten-ongebrand.jpeg",
+                "sku": "NUT-007",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "gepeld-blank",
+                "name": "Gepeld Blank",
+                "price": 6.5,
+                "image": "assets/img/noten/hazelnoten-gepeld-blank.jpeg",
+                "sku": "NUT-008",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 1004,
+        "name": "Pistachenoten",
+        "slug": "pistachenoten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/pistachenoten-geroosterd-gezouten.jpeg",
+        "desc": "Knapperige pistachenoten, licht geroosterd en gezouten. De ultieme borrelsnack met die onweerstaanbare smaak.",
+        "basePrice": 8.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 8.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 16.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 30.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "geroosterd-gezouten",
+                "name": "Geroosterd & Gezouten",
+                "price": 8.95,
+                "image": "assets/img/noten/pistachenoten-geroosterd-gezouten.jpeg",
+                "sku": "NUT-009",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": "Bestseller"
+            },
+            {
+                "id": "naturel",
+                "name": "Naturel",
+                "price": 8.5,
+                "image": "assets/img/noten/pistachenoten-ongepeld-naturel.jpeg",
+                "sku": "NUT-010",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "sku": "NUT-011",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Pecannoten Halven",
+        "slug": "pecannoten-halven",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/pecannoten-halven-naturel.jpeg",
+        "desc": "Zachte, zoete pecannoten in halven. Heerlijk in taarten, salades of gewoon uit het handje.",
+        "basePrice": 8.25,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 8.25
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 15.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 28.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 12,
+        "sku": "NUT-012",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Macadamia Noten",
+        "slug": "macadamia-noten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/macadamia-noten-gepeld.jpeg",
+        "desc": "De koningin der noten — boterzacht en luxueus. Macadamia's zijn een ware delicatesse.",
+        "basePrice": 11.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 11.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 22.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 42.95
+            }
+        ],
+        "badge": "Premium",
+        "variants": []
+    },
+    {
+        "id": 13,
+        "sku": "NUT-013",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Paranoten",
+        "slug": "paranoten",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/paranoten-in-dop.jpeg",
+        "desc": "Rijke paranoten, een uitstekende bron van selenium. Krachtig van smaak, voedzaam en hartverwarmend.",
+        "basePrice": 7.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 7.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 13.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 25.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 1008,
+        "name": "Pinda's",
+        "slug": "pindas",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/pindas/pinda-ongebrand-in-dop.jpeg",
+        "desc": "Klassieke pinda's in de dop, ongebrand en naturel.Leuk voor op de borreltafel.",
+        "basePrice": 3.25,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 3.25
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 5.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 10.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "ongebrand-in-dop",
+                "name": "Ongebrand in Dop",
+                "price": 3.25,
+                "image": "assets/img/pindas/pinda-ongebrand-in-dop.jpeg",
+                "sku": "NUT-014",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "gepeld-gebrand",
+                "name": "Gepeld & Gebrand",
+                "price": 3.75,
+                "image": "assets/img/pindas/pinda-gepeld-gebrand.jpeg",
+                "sku": "NUT-015",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "sku": "NUT-016",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Kastanjes",
+        "slug": "kastanjes",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/kastanjes-vers-ongebrand.jpeg",
+        "desc": "Verse kastanjes, heerlijk om te roosteren. Warm, zoet en de perfecte herfst- en wintersnack.",
+        "basePrice": 5.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 10.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 19.95
+            }
+        ],
+        "badge": "Seizoen",
+        "variants": []
+    },
+    {
+        "id": 17,
+        "sku": "NUT-017",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Soja Noten Geroosterd",
+        "slug": "soja-noten-geroosterd",
+        "category": "noten",
+        "categoryLabel": "Noten",
+        "image": "assets/img/noten/soja-noten-geroosterd-gezouten.jpeg",
+        "desc": "Krokante geroosterde sojabonen, heerlijk gezouten. Een eiwitrijke snack vol smaak.",
+        "basePrice": 3.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 3.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 6.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 12.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 18,
+        "sku": "NUT-018",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Gedroogde Abrikozen",
+        "slug": "gedroogde-abrikozen",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/gedroogde-abrikozen-naturel.jpeg",
+        "desc": "Sappige gedroogde abrikozen, zoet en fruitig. Rijk aan ijzer en vezels, een heerlijke natuurlijke snack.",
+        "basePrice": 4.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 8.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 16.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 19,
+        "sku": "NUT-019",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Gedroogde Mango",
+        "slug": "gedroogde-mango",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/gedroogde-mango-schijfjes.jpeg",
+        "desc": "Tropisch zoete mangoreepjes, zacht en chewy. Een exotische traktatie boordevol vitamines.",
+        "basePrice": 5.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 9.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 18.5
+            }
+        ],
+        "badge": "Populair",
+        "variants": []
+    },
+    {
+        "id": 20,
+        "sku": "NUT-020",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Dadels Medjoul",
+        "slug": "dadels-medjoul",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/dadels-medjoul-gedroogd.jpeg",
+        "desc": "De koning der dadels — groot, zacht en heerlijk zoet. Medjoul dadels zijn een pure verwennerij.",
+        "basePrice": 8.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 8.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 16.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 30.95
+            }
+        ],
+        "badge": "Premium",
+        "variants": []
+    },
+    {
+        "id": 1014,
+        "name": "Rozijnen",
+        "slug": "rozijnen",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/rozijnen-zwart-gedroogd.jpeg",
+        "desc": "Donkere, sappige rozijnen zongedroogd. Natuurlijk zoet en veelzijdig te gebruiken in de keuken.",
+        "basePrice": 3.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 3.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 5.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 10.5
+            }
+        ],
+        "variants": [
+            {
+                "id": "standaard",
+                "name": "Standaard",
+                "price": 3.5,
+                "image": "assets/img/zuidvruchten/rozijnen-zwart-gedroogd.jpeg",
+                "sku": "NUT-021",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "sku": "NUT-022",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Cranberries Gedroogd",
+        "slug": "cranberries-gedroogd",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/cranberries-gedroogd.jpeg",
+        "desc": "Zoet-zure cranberries, gedroogd en klaar om te snacken. Heerlijk in muesli, salades of als topping.",
+        "basePrice": 4.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 8.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 16.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 23,
+        "sku": "NUT-023",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Gedroogde Sinaasappelschijfjes",
+        "slug": "gedroogde-sinaasappelschijfjes",
+        "category": "gedroogd-fruit",
+        "categoryLabel": "Gedroogd Fruit",
+        "image": "assets/img/zuidvruchten/gedroogde-sinaasappelschijfjes.jpeg",
+        "desc": "Knapperige gedroogde sinaasappelschijfjes, heerlijk als snack, in thee of als decoratie.",
+        "basePrice": 5.25,
+        "unit": "per 100g",
+        "weights": [
+            {
+                "label": "100 gram",
+                "grams": 100,
+                "price": 5.25
+            },
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 11.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 21.95
+            }
+        ],
+        "badge": "Nieuw",
+        "variants": []
+    },
+    {
+        "id": 24,
+        "sku": "NUT-024",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Zonnebloempitten Ongepeld",
+        "slug": "zonnebloempitten-ongepeld",
+        "category": "pitten-zaden",
+        "categoryLabel": "Pitten & Zaden",
+        "image": "assets/img/zaden-pitten/zonnebloempitten-ongepeld.jpeg",
+        "desc": "Knapperige zonnebloempitten in de dop, de klassieke snack. Lekker om te kraken tussendoor.",
+        "basePrice": 2.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 2.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 4.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 8.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 25,
+        "sku": "NUT-025",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Pompoenpitten Geroosterd",
+        "slug": "pompoenpitten-geroosterd",
+        "category": "pitten-zaden",
+        "categoryLabel": "Pitten & Zaden",
+        "image": "assets/img/zaden-pitten/pompoenpitten-geroosterd.jpeg",
+        "desc": "Geroosterde pompoenpitten, een krachtige bron van magnesium en zink. Lekker in salades en soepen.",
+        "basePrice": 4.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 7.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 14.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 26,
+        "sku": "NUT-026",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Pijnboompitten",
+        "slug": "pijnboompitten",
+        "category": "pitten-zaden",
+        "categoryLabel": "Pitten & Zaden",
+        "image": "assets/img/zaden-pitten/pijnboompitten-naturel.jpeg",
+        "desc": "Delicate pijnboompitten, onmisbaar voor pesto en Mediterraanse gerechten. Mild, nootachtig en luxueus.",
+        "basePrice": 9.95,
+        "unit": "per 100g",
+        "weights": [
+            {
+                "label": "100 gram",
+                "grams": 100,
+                "price": 9.95
+            },
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 22.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 42.5
+            }
+        ],
+        "badge": "Premium",
+        "variants": []
+    },
+    {
+        "id": 27,
+        "sku": "NUT-027",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Luxe Notenmix Ongebrand",
+        "slug": "luxe-notenmix-ongebrand",
+        "category": "mixen",
+        "categoryLabel": "Mixen",
+        "image": "assets/img/noten/luxe-notenmix-ongebrand.jpeg",
+        "desc": "Een premium mix van ongebrande noten: cashew, amandelen, walnoten, pecannoten en hazelnoten. Puur en onbewerkt.",
+        "basePrice": 7.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 7.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 14.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 27.5
+            }
+        ],
+        "badge": "Bestseller",
+        "variants": []
+    },
+    {
+        "id": 28,
+        "sku": "NUT-028",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Trail Mix Noten & Fruit",
+        "slug": "trail-mix-noten-fruit",
+        "category": "mixen",
+        "categoryLabel": "Mixen",
+        "image": "assets/img/mixen/trail-mix-noten-fruit.jpeg",
+        "desc": "Een kleurrijke mix van noten, gedroogd fruit, chocolade en pretzels. De ideale energieboost voor onderweg.",
+        "basePrice": 5.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 10.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 19.5
+            }
+        ],
+        "badge": "Populair",
+        "variants": []
+    },
+    {
+        "id": 29,
+        "sku": "NUT-029",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Notenmix Klassiek",
+        "slug": "notenmix-klassiek",
+        "category": "mixen",
+        "categoryLabel": "Mixen",
+        "image": "assets/img/noten/notenmix-schaal-klassiek.jpeg",
+        "desc": "Een rijke schaal vol diverse noten, ambachtelijk samengesteld. Het perfecte cadeau of voor bij de borrel.",
+        "basePrice": 9.95,
+        "unit": "per 500g",
+        "weights": [
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 9.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 18.5
+            },
+            {
+                "label": "2 kilogram",
+                "grams": 2000,
+                "price": 34.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 30,
+        "sku": "NUT-030",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Notenmix Ambachtelijk",
+        "slug": "notenmix-ambachtelijk",
+        "category": "mixen",
+        "categoryLabel": "Mixen",
+        "image": "assets/img/noten/notenmix-schaal-ambachtelijk.jpeg",
+        "desc": "Handgeselecteerde premium notenmix in ambachtelijke stijl. Met liefde samengesteld voor de echte liefhebber.",
+        "basePrice": 10.95,
+        "unit": "per 500g",
+        "weights": [
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 10.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 19.95
+            },
+            {
+                "label": "2 kilogram",
+                "grams": 2000,
+                "price": 37.5
+            }
+        ],
+        "badge": "Nieuw",
+        "variants": []
+    },
+    {
+        "id": 31,
+        "sku": "NUT-031",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Elitehaver",
+        "slug": "elitehaver",
+        "category": "mixen",
+        "categoryLabel": "Notenmix",
+        "image": "assets/img/mixen/Elitehaver.jpg",
+        "desc": "Klassieke mix van rozijnen en noten, zonder pinda's.",
+        "basePrice": 5.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 1040,
+        "name": "Chocolade Pinda's",
+        "slug": "chocolade-pindas",
+        "category": "chocolade",
+        "categoryLabel": "Chocolade",
+        "image": "assets/img/chocolade/Chocolade-Pindas-Melk.jpg",
+        "desc": "Knapperige pinda's omhuld met een dikke laag romige chocolade. De perfecte combinatie van zoet en hartig.",
+        "basePrice": 4.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.95
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 8.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 16.5
+            }
+        ],
+        "variants": [
+            {
+                "id": "melk",
+                "name": "Melk",
+                "price": 4.95,
+                "image": "assets/img/chocolade/Chocolade-Pindas-Melk.jpg",
+                "sku": "NUT-040-M",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "puur",
+                "name": "Puur",
+                "price": 4.95,
+                "image": "assets/img/chocolade/Chocolade-Pindas-Puur.jpg",
+                "sku": "NUT-040-P",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 1041,
+        "name": "Pindarotsjes",
+        "slug": "pindarotsjes",
+        "category": "chocolade",
+        "categoryLabel": "Chocolade",
+        "image": "assets/img/chocolade/Pindarotsjes-Melk.jpg",
+        "desc": "Onweerstaanbare pindarotsjes: knapperige pinda's in een robuust jasje van chocolade. Verslavend lekker.",
+        "basePrice": 5.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 9.95
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 18.5
+            }
+        ],
+        "variants": [
+            {
+                "id": "melk",
+                "name": "Melk",
+                "price": 5.5,
+                "image": "assets/img/chocolade/Pindarotsjes-Melk.jpg",
+                "sku": "NUT-041-M",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": "Populair"
+            },
+            {
+                "id": "puur",
+                "name": "Puur",
+                "price": 5.5,
+                "image": "assets/img/chocolade/Pindarotsjes-Puur.jpg",
+                "sku": "NUT-041-P",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "wit",
+                "name": "Wit",
+                "price": 5.5,
+                "image": "assets/img/chocolade/Pindarotsjes-Wit.jpg",
+                "sku": "NUT-041-W",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "caramel-zeezout",
+                "name": "Caramel Zeezout",
+                "price": 5.95,
+                "image": "assets/img/chocolade/Pindarotsjes-Caramel-Zeezout.jpg",
+                "sku": "NUT-041-CZ",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": "Nieuw"
+            }
+        ]
+    },
+    {
+        "id": 1042,
+        "name": "Chocolade Rozijnen",
+        "slug": "chocolade-rozijnen",
+        "category": "chocolade",
+        "categoryLabel": "Chocolade",
+        "image": "assets/img/chocolade/Chocolade-Rozijnen-Gemengd.jpg",
+        "desc": "Zoete rozijnen omhuld met diverse soorten chocolade of yoghurt. Een klassieke traktatie.",
+        "basePrice": 4.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 4.5
+            },
+            {
+                "label": "500 gram",
+                "grams": 500,
+                "price": 8.5
+            },
+            {
+                "label": "1 kilogram",
+                "grams": 1000,
+                "price": 15.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "gemengd",
+                "name": "Gemengd",
+                "price": 4.5,
+                "image": "assets/img/chocolade/Chocolade-Rozijnen-Gemengd.jpg",
+                "sku": "NUT-042-Mix",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "melk",
+                "name": "Melk",
+                "price": 4.5,
+                "image": "assets/img/chocolade/Chocolade-Rozijnen-Melk.jpg",
+                "sku": "NUT-042-M",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "puur",
+                "name": "Puur",
+                "price": 4.5,
+                "image": "assets/img/chocolade/Chocolade-Rozijnen-Puur.jpg",
+                "sku": "NUT-042-P",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "yoghurt",
+                "name": "Yoghurt",
+                "price": 4.95,
+                "image": "assets/img/chocolade/Chocolade-Rozijnen-Yoghurt.jpg",
+                "sku": "NUT-042-Y",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "sku": "NUT-050",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Chiazaad",
+        "slug": "chiazaad",
+        "category": "superfoods",
+        "categoryLabel": "Superfoods",
+        "image": "assets/img/zaden-pitten/Chiazaad.jpg",
+        "desc": "Klein zwart/wit zaadje boordevol omega-3 en vezels. Perfect voor door de yoghurt.",
+        "basePrice": 3.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 3.95
+            }
+        ],
+        "badge": "Superfood",
+        "variants": []
+    },
+    {
+        "id": 51,
+        "sku": "NUT-051",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Gebroken Lijnzaad",
+        "slug": "gebroken-lijnzaad",
+        "category": "superfoods",
+        "categoryLabel": "Superfoods",
+        "image": "assets/img/Lijnzaad-Gebroken.jpg",
+        "desc": "Gebroken lijnzaad voor een betere opname. Goed voor de spijsvertering.",
+        "basePrice": 2.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 2.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 52,
+        "sku": "NUT-052",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Cacaonibs",
+        "slug": "cacaonibs",
+        "category": "superfoods",
+        "categoryLabel": "Superfoods",
+        "image": "assets/img/superfoods/Cacaonibs.jpg",
+        "desc": "Rauwe stukjes cacaoboon. Puur natuur en vol antioxidanten.",
+        "basePrice": 6.5,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 6.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 53,
+        "sku": "NUT-053",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Cacaopoeder (Rauw)",
+        "slug": "cacaopoeder",
+        "category": "superfoods",
+        "categoryLabel": "Superfoods",
+        "image": "assets/img/superfoods/Cacaopoeder.jpg",
+        "desc": "Puur en onbewerkt cacaopoeder voor smoothies en bakken.",
+        "basePrice": 5.95,
+        "unit": "per 250g",
+        "weights": [
+            {
+                "label": "250 gram",
+                "grams": 250,
+                "price": 5.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 1031,
+        "name": "Acacia Honing",
+        "slug": "acacia-honing",
+        "category": "honing",
+        "categoryLabel": "Honing",
+        "image": "assets/img/overig/Acacia_pot_NE_FRA_350g.jpg",
+        "desc": "Heldere, vloeibare honing met een milde, zoete smaak. Kristalliseert langzaam.",
+        "basePrice": 7.95,
+        "unit": "per pot",
+        "weights": [
+            {
+                "label": "Pot 450g",
+                "grams": 450,
+                "price": 7.95
+            }
+        ],
+        "variants": [
+            {
+                "id": "pot",
+                "name": "(Pot)",
+                "price": 7.95,
+                "image": "assets/img/overig/Acacia_pot_NE_FRA_350g.jpg",
+                "sku": "NUT-060",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            },
+            {
+                "id": "fles",
+                "name": "(Fles)",
+                "price": 8.5,
+                "image": "assets/img/overig/acacia-web.jpg",
+                "sku": "NUT-061",
+                "stock": {
+                    "status": "in_stock",
+                    "label": "Op voorraad",
+                    "lowStock": false
+                },
+                "origin": "Diverse landen",
+                "badge": null
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "sku": "NUT-062",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Bloemenhoning (Fles)",
+        "slug": "bloemenhoning-fles",
+        "category": "honing",
+        "categoryLabel": "Honing",
+        "image": "assets/img/Bloemenhoning-Fles.jpg",
+        "desc": "Kruidige melange van diverse bloemennectar in knijpfles.",
+        "basePrice": 6.95,
+        "unit": "per fles",
+        "weights": [
+            {
+                "label": "Knijpfles 500g",
+                "grams": 500,
+                "price": 6.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 63,
+        "sku": "NUT-063",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Berghoning",
+        "slug": "berghoning",
+        "category": "honing",
+        "categoryLabel": "Honing",
+        "image": "assets/img/Berghoning.jpg",
+        "desc": "Krachtige en donkere honing uit berggebieden.",
+        "basePrice": 8.95,
+        "unit": "per pot",
+        "weights": [
+            {
+                "label": "Pot 450g",
+                "grams": 450,
+                "price": 8.95
+            }
+        ],
+        "badge": "Specialiteit",
+        "variants": []
+    },
+    {
+        "id": 64,
+        "sku": "NUT-064",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Boekweit Honing (Pot)",
+        "slug": "boekweit-honing",
+        "category": "honing",
+        "categoryLabel": "Honing",
+        "image": "assets/img/Boekweit-Honing.jpg",
+        "desc": "Donkere honing met een zeer uitgesproken, moutachtige smaak.",
+        "basePrice": 7.5,
+        "unit": "per pot",
+        "weights": [
+            {
+                "label": "Pot 450g",
+                "grams": 450,
+                "price": 7.5
+            }
+        ],
+        "badge": null,
+        "variants": []
+    },
+    {
+        "id": 65,
+        "sku": "NUT-065",
+        "stock": {
+            "status": "in_stock",
+            "label": "Op voorraad",
+            "lowStock": false
+        },
+        "origin": "Diverse landen",
+        "crossSell": [],
+        "name": "Eucalyptus Honing (Pot)",
+        "slug": "eucalyptus-honing",
+        "category": "honing",
+        "categoryLabel": "Honing",
+        "image": "assets/img/placeholder.jpg",
+        "desc": "Honing met een lichte karamelsmaak en een frisse nasmaak.",
+        "basePrice": 7.95,
+        "unit": "per pot",
+        "weights": [
+            {
+                "label": "Pot 450g",
+                "grams": 450,
+                "price": 7.95
+            }
+        ],
+        "badge": null,
+        "variants": []
+    }
+]
