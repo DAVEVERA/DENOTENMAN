@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/MNRV/.claude//**)",
+      "Read(//c/Users/MNRV/.claude/**)",
+      "Read(//c/Users/MNRV/**)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c ':*)",
+      "Bash(xargs grep:*)",
+      "Bash(docker info:*)",
+      "Bash(docker --context default info)",
+      "Bash(docker context:*)"
+    ]
+  }
+}
