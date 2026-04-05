@@ -11,5 +11,9 @@
       "Bash(docker --context default info)",
       "Bash(docker context:*)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "supabase"
+  ],
+  "enableAllProjectMcpServers": true
 }
