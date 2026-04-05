@@ -3,7 +3,7 @@ import { getProducts } from '@/lib/products';
 import { calculateOrderAmount } from '@/utils/pricing';
 import { CartItem } from '@/types';
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY || 'sk_test_placeholder');
 
 export async function POST(request: NextRequest) {
     try {
