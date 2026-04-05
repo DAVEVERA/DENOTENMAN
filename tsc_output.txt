@@ -1,2 +1,0 @@
-src/app/api/send-order-email/route.ts(2,24): error TS2307: Cannot find module 'resend' or its corresponding type declarations.
-src/app/page.tsx(146,75): error TS2322: Type 'string' is not assignable to type 'number'.
