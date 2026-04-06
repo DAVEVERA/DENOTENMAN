@@ -1,6 +1,11 @@
 import { supabase } from './supabase';
 import { Product, Variant, WeightOption, StockStatus } from '@/types';
 
+export async function getProductsByCategory(category: string): Promise<Product[]> {
+    const all = await getProducts();
+    return all.filter(p => p.category === category);
+}
+
 export async function getProducts(): Promise<Product[]> {
     const { data: products, error } = await supabase
         .from('products')

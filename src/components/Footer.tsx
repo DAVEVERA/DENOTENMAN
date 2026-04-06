@@ -19,36 +19,47 @@ export default function Footer() {
                     <h4>Klantenservice</h4>
                     <ul className="footer-links">
                         <li><Link href="/contact">Contact</Link></li>
-                        <li><Link href="/shipping">Verzending & Retourneren</Link></li>
-                        <li><Link href="/faq">Veelgestelde Vragen</Link></li>
-                        <li><Link href="/privacy">Privacybeleid</Link></li>
-                        <li><Link href="/terms">Algemene Voorwaarden</Link></li>
+                        <li><Link href="/bestellen-verzenden">Bestellen & Verzenden</Link></li>
+                        <li><Link href="/herroepen-retourneren">Herroepen & Retourneren</Link></li>
+                        <li><Link href="/garantie">Garantie</Link></li>
+                        <li><Link href="/klachten">Klachten</Link></li>
+                        <li><Link href="/betaalmethodes">Betaalmethodes</Link></li>
                     </ul>
                 </div>
                 <div className="footer-col">
                     <h4>Navigatie</h4>
-                    <Link href="/" data-nav="home">Home</Link>
-                    <Link href="/#shop-section" data-nav="shop">Shop</Link>
-                    <Link href="/#about-section" data-nav="about">Over Ons</Link>
-                    <Link href="/#contact-section" data-nav="contact">Contact</Link>
+                    <ul className="footer-links">
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/noten">Shop</Link></li>
+                        <li><Link href="/acties">Aanbiedingen</Link></li>
+                        <li><Link href="/wie-zijn-wij">Over Ons</Link></li>
+                        <li><Link href="/werken-bij-denotenman">Werken bij ons</Link></li>
+                    </ul>
                 </div>
                 <div className="footer-col">
                     <h4>Categorieën</h4>
-                    {/* These filters might need logic adjustments in Next.js, keeping structure for now */}
-                    <a href="#" data-filter-link="noten">Noten</a>
-                    <a href="#" data-filter-link="gedroogd-fruit">Gedroogd Fruit</a>
-                    <a href="#" data-filter-link="pitten-zaden">Pitten & Zaden</a>
-                    <a href="#" data-filter-link="mixen">Mixen</a>
+                    <ul className="footer-links">
+                        <li><Link href="/noten">Noten</Link></li>
+                        <li><Link href="/gedroogd-fruit">Gedroogd Fruit</Link></li>
+                        <li><Link href="/pitten-zaden">Pitten & Zaden</Link></li>
+                        <li><Link href="/notenpasta">Notenpasta</Link></li>
+                        <li><Link href="/chocolade">Chocolade</Link></li>
+                        <li><Link href="/muesli-granen">Muesli & Granen</Link></li>
+                    </ul>
                 </div>
                 <div className="footer-col">
                     <h4>Contact</h4>
-                    <p>📧 info@denotenman.com</p>
-                    <p>📞 06-47998826</p>
+                    <p>📧 <a href="mailto:info@denotenman.com">info@denotenman.com</a></p>
+                    <p>📞 <a href="tel:+31647998826">06-47998826</a></p>
                     <p>📍 Haaren, Nederland</p>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; 2026 De Notenman — Alle rechten voorbehouden</p>
+                <p>
+                    &copy; 2026 De Notenman — Alle rechten voorbehouden &nbsp;|&nbsp;
+                    <Link href="/privacy-policy">Privacybeleid</Link> &nbsp;|&nbsp;
+                    <Link href="/algemene-voorwaarden">Algemene Voorwaarden</Link>
+                </p>
             </div>
         </footer>
     );

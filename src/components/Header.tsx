@@ -31,9 +31,9 @@ export default function Header() {
                     </Link>
                     <nav id="main-nav">
                         <Link href="/" data-nav="home" className="nav-link active">Home</Link>
-                        <Link href="/#shop-section" data-nav="shop" className="nav-link">Shop</Link>
-                        <Link href="/#about-section" data-nav="about" className="nav-link">Over Ons</Link>
-                        <Link href="/#contact-section" data-nav="contact" className="nav-link">Contact</Link>
+                        <Link href="/noten" data-nav="shop" className="nav-link">Shop</Link>
+                        <Link href="/wie-zijn-wij" data-nav="about" className="nav-link">Over Ons</Link>
+                        <Link href="/contact" data-nav="contact" className="nav-link">Contact</Link>
                     </nav>
                     <div className="header-actions">
                         <button
@@ -49,12 +49,14 @@ export default function Header() {
                             </svg>
                         </button>
                         <button className="icon-btn cart-btn" id="cart-btn" aria-label="Winkelwagen" onClick={openCart}>
-                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                strokeLinecap="round" strokeLinejoin="round">
-                                <circle cx="9" cy="21" r="1" />
-                                <circle cx="20" cy="21" r="1" />
-                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                            </svg>
+                            <Link href="/winkelwagen" aria-label="Bekijk winkelwagen" style={{ display: 'flex', alignItems: 'center', color: 'inherit' }}>
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+                                    strokeLinecap="round" strokeLinejoin="round">
+                                    <circle cx="9" cy="21" r="1" />
+                                    <circle cx="20" cy="21" r="1" />
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                </svg>
+                            </Link>
                             <span className={`cart-count ${cartCount > 0 ? 'visible' : ''}`} id="cart-count">{cartCount}</span>
                         </button>
                         <button
@@ -89,9 +91,9 @@ export default function Header() {
                     <button className="close-btn" onClick={closeMobileMenu}>&times;</button>
                 </div>
                 <Link href="/" className="mobile-nav-link" onClick={closeMobileMenu}>Home</Link>
-                <Link href="/#shop-section" className="mobile-nav-link" onClick={closeMobileMenu}>Shop</Link>
-                <Link href="/#about-section" className="mobile-nav-link" onClick={closeMobileMenu}>Over Ons</Link>
-                <Link href="/#contact-section" className="mobile-nav-link" onClick={closeMobileMenu}>Contact</Link>
+                <Link href="/noten" className="mobile-nav-link" onClick={closeMobileMenu}>Shop</Link>
+                <Link href="/wie-zijn-wij" className="mobile-nav-link" onClick={closeMobileMenu}>Over Ons</Link>
+                <Link href="/contact" className="mobile-nav-link" onClick={closeMobileMenu}>Contact</Link>
             </div>
 
             {/* @ts-ignore - Component not yet typed */}
