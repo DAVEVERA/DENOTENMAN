@@ -14,6 +14,13 @@ const nextConfig = {
       }
     ],
   },
+  async redirects() {
+    return [
+      { source: '/privacy', destination: '/privacy-policy', permanent: true },
+      { source: '/terms', destination: '/algemene-voorwaarden', permanent: true },
+      { source: '/shipping', destination: '/bestellen-verzenden', permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;

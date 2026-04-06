@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     description: 'Algemene Voorwaarden van De Notenman.',
 };
 
-export default function TermsPage() {
+export default function AlgemeneVoorwaardenPage() {
     return (
         <div className="container" style={{ padding: '4rem 0' }}>
             <h1 className="section-title">Algemene Voorwaarden</h1>
@@ -39,6 +39,20 @@ export default function TermsPage() {
                     <p>
                         Indien er sprake is van een consumentenkoop, overeenkomstig de Wet verkopen op Afstand (artikel 7:5 BW), heeft de afnemer het recht (een deel van) de geleverde goederen binnen een periode van 14 werkdagen zonder opgave van reden te retourneren.
                         <strong> Let op:</strong> Dit geldt niet voor versproducten die snel kunnen bederven of verouderen, zoals verse noten en sommige gedroogde vruchten, tenzij deze verpakt zijn en de verzegeling niet verbroken is.
+                    </p>
+                </section>
+
+                <section className="mb-8">
+                    <h2>5. Betaling</h2>
+                    <p>
+                        Bij bestellingen via de webwinkel dient betaling vooraf te geschieden. De Notenman accepteert betaling via iDEAL, creditcard en andere gangbare betaalmethoden. Pas na ontvangst van de betaling wordt de bestelling verwerkt.
+                    </p>
+                </section>
+
+                <section className="mb-8">
+                    <h2>6. Klachten</h2>
+                    <p>
+                        Klachten over de uitvoering van de overeenkomst moeten volledig en duidelijk omschreven worden ingediend bij De Notenman, nadat de afnemer de gebreken heeft geconstateerd. Bij De Notenman ingediende klachten worden binnen een termijn van 14 dagen gerekend vanaf de datum van ontvangst beantwoord.
                     </p>
                 </section>
             </div>

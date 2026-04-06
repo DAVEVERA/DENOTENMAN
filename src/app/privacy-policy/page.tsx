@@ -2,11 +2,11 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy | De Notenman',
+    title: 'Privacybeleid | De Notenman',
     description: 'Privacybeleid van De Notenman. Lees hoe wij omgaan met uw gegevens.',
 };
 
-export default function PrivacyPage() {
+export default function PrivacyPolicyPage() {
     return (
         <div className="container" style={{ padding: '4rem 0' }}>
             <h1 className="section-title">Privacybeleid</h1>
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
                 <section className="mb-8">
                     <h2>4. Vragen</h2>
                     <p>
-                        Indien u nog vragen mocht hebben over de Privacy Policy van De Notenman, dan kunt u contact met ons opnemen. Onze klantenservice helpt u verder als u informatie nodig heeft over uw gegevens of als u deze wilt wijzigen.
+                        Indien u nog vragen mocht hebben over het Privacybeleid van De Notenman, dan kunt u contact met ons opnemen via <a href="mailto:info@denotenman.com">info@denotenman.com</a>. Onze klantenservice helpt u verder als u informatie nodig heeft over uw gegevens of als u deze wilt wijzigen.
                     </p>
                 </section>
             </div>
